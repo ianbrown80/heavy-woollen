@@ -1,0 +1,36 @@
+.banner {
+  
+  width: 100%;
+  position: fixed;
+
+  &--logo-image  {
+    width: 160px;
+    height: 80px;
+  }
+
+}
+
+.nav-primary {
+  float: right;
+
+}
+
+#menu-header-menu > .menu-item {
+  font-size: 16px;
+  padding: 0 20px;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+#menu-header-menu > .menu-item > a {
+  height: 80px;
+}
+
+#menu-header-menu > .menu-item:hover {
+  background-color: $secondary;
+}
+
+#menu-header-menu > .menu-item > a:hover {
+  color: $background;
+}
