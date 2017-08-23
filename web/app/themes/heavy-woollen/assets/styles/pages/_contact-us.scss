@@ -1,0 +1,22 @@
+.contact-us-image-container {
+  width: 100%;
+  overflow: hidden;
+  max-height: 250px;
+
+  & > img {
+    position: relative;
+    top: -120px;
+  }
+}
+
+.contact-us-text-container {
+  padding: 20px 0;
+}
+
+.contact-us-form-container {
+  padding: 20px;
+}
+
+.contact-us-map-container {
+  margin: 0 20px 20px 20px;
+}

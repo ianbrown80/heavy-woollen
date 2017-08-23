@@ -1,7 +1,8 @@
 .banner {
-  
+
   width: 100%;
   position: fixed;
+  z-index: 999;
 
   &--logo-image  {
     width: 160px;
@@ -24,13 +25,13 @@
 }
 
 #menu-header-menu > .menu-item > a {
-  height: 80px;
+  height: 50px;
 }
 
 #menu-header-menu > .menu-item:hover {
-  background-color: $secondary;
+  border-bottom: 2px solid $primary;
 }
 
 #menu-header-menu > .menu-item > a:hover {
-  color: $background;
+  color: $primary;
 }

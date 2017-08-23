@@ -2,9 +2,15 @@ html body {
   min-height: 100vh;
   color: $text;
   font-family: 'Raleway', sans-serif;
+  background-color: $background;
 }
 
 a, a:visited, a:active, a:hover {
   color: $text;
   text-decoration: none;
+}
+
+.page-header {
+  margin: 0 auto;
+  text-align: center;
 }
