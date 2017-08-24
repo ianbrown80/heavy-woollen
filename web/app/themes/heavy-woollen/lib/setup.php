@@ -86,6 +86,7 @@ function display_sidebar() {
     is_404(),
     is_front_page(),
     is_page('contact-us'),
+    is_page('about-us'),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
